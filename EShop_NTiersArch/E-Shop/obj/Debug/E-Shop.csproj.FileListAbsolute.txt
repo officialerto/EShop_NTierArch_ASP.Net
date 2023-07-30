@@ -81,3 +81,5 @@ C:\Users\Ertugrul\source\repos\EShop_NTiersArch\E-Shop\bin\EntityLayer.pdb
 C:\Users\Ertugrul\source\repos\EShop_NTiersArch\E-Shop\bin\EntityLayer.dll.config
 C:\Users\Ertugrul\source\repos\EShop_NTiersArch\E-Shop\bin\EntityFramework.xml
 C:\Users\Ertugrul\source\repos\EShop_NTiersArch\E-Shop\bin\BusinessLayer.dll.config
+C:\Users\Ertugrul\source\repos\EShop_NTiersArch\E-Shop\bin\EntityFramework.SqlServer.dll
+C:\Users\Ertugrul\source\repos\EShop_NTiersArch\E-Shop\bin\EntityFramework.SqlServer.xml
