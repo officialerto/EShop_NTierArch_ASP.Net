@@ -12,7 +12,6 @@ namespace E_Shop.Controllers
     {
         CategoryRepository categoryRepository = new CategoryRepository();
 
-        // GET: AdminCategory
         public ActionResult Index()
         {
             return View(categoryRepository.List());
