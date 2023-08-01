@@ -13,6 +13,11 @@ namespace EntityLayer.Entities
         public int Id { get; set; }
 
         [Required(ErrorMessage = "Cannot be Empty")]
+        [Display(Name = "Name")]
+        [StringLength(50, ErrorMessage = "It should be a Maximum of 50 Characters")]
+        public string Name { get; set; }
+
+        [Required(ErrorMessage = "Cannot be Empty")]
         [Display(Name = "Description")]
         [StringLength(50, ErrorMessage = "It should be a Maximum of 50 Characters")]
         public string Description { get; set; }
@@ -36,10 +41,6 @@ namespace EntityLayer.Entities
         [Required(ErrorMessage = "Cannot be Empty")]
         [Display(Name = "Resim")]
         public string Image { get; set; }
-
-        [Required(ErrorMessage = "Cannot be Empty")]
-        [Display(Name = "Adet")]
-        public int Quantity { get; set; }
 
         [Required(ErrorMessage = "Cannot be Empty")]
         [Display(Name = "Kategori")]

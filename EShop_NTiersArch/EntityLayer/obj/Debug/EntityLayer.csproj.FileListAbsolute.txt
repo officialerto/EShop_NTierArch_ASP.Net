@@ -10,3 +10,15 @@ C:\Users\Ertugrul\source\repos\EShop_NTiersArch\EntityLayer\bin\Debug\EntityFram
 C:\Users\Ertugrul\source\repos\EShop_NTiersArch\EntityLayer\bin\Debug\EntityFramework.xml
 C:\Users\Ertugrul\source\repos\EShop_NTiersArch\EntityLayer\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Ertugrul\source\repos\EShop_NTiersArch\EntityLayer\obj\Debug\EntityLayer.csproj.CopyComplete
+C:\Users\Ertugrul\Documents\GitHub\EShop_NTiersArch\EShop_NTiersArch\EntityLayer\bin\Debug\EntityLayer.dll.config
+C:\Users\Ertugrul\Documents\GitHub\EShop_NTiersArch\EShop_NTiersArch\EntityLayer\bin\Debug\EntityLayer.dll
+C:\Users\Ertugrul\Documents\GitHub\EShop_NTiersArch\EShop_NTiersArch\EntityLayer\bin\Debug\EntityLayer.pdb
+C:\Users\Ertugrul\Documents\GitHub\EShop_NTiersArch\EShop_NTiersArch\EntityLayer\bin\Debug\EntityFramework.dll
+C:\Users\Ertugrul\Documents\GitHub\EShop_NTiersArch\EShop_NTiersArch\EntityLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ertugrul\Documents\GitHub\EShop_NTiersArch\EShop_NTiersArch\EntityLayer\bin\Debug\EntityFramework.xml
+C:\Users\Ertugrul\Documents\GitHub\EShop_NTiersArch\EShop_NTiersArch\EntityLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ertugrul\Documents\GitHub\EShop_NTiersArch\EShop_NTiersArch\EntityLayer\obj\Debug\EntityLayer.csproj.AssemblyReference.cache
+C:\Users\Ertugrul\Documents\GitHub\EShop_NTiersArch\EShop_NTiersArch\EntityLayer\obj\Debug\EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\Ertugrul\Documents\GitHub\EShop_NTiersArch\EShop_NTiersArch\EntityLayer\obj\Debug\EntityLayer.csproj.CopyComplete
+C:\Users\Ertugrul\Documents\GitHub\EShop_NTiersArch\EShop_NTiersArch\EntityLayer\obj\Debug\EntityLayer.dll
+C:\Users\Ertugrul\Documents\GitHub\EShop_NTiersArch\EShop_NTiersArch\EntityLayer\obj\Debug\EntityLayer.pdb

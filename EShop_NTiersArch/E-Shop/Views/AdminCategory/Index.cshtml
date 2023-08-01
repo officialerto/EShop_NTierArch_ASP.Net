@@ -19,7 +19,7 @@
         <tr>
             <td>@item.Name</td>
             <td>@item.Description</td>
-            @*<td>@Html.ActionLink("Delete", "Delete", new {item.Id}, new {@class="btn btn-danger", onclick="return confirm ('Silmek İstiyor Musunuz?')"})</td>*@
+            @*<td>@Html.ActionLink("Delete", "Delete", new {item.Id}, new {@class="btn btn-danger", onclick="return confirm ('Do you want delete?')"})</td>*@
             <td><a class="btn btn-danger btnSil" data-id="@item.Id">Delete</a></td>
             <td><a class="btn btn-primary" href="/AdminCategory/Update/@item.Id">Update</a></td>
         </tr>

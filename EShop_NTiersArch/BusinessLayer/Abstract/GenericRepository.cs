@@ -14,10 +14,12 @@ namespace BusinessLayer.Abstract
 
         DbSet<T> data;
 
+
         public GenericRepository()
         {
              data = db.Set<T>();
         }
+
 
         public void Delete(T p)
         {
@@ -43,7 +45,7 @@ namespace BusinessLayer.Abstract
 
         public void Update(T p)
         {
-            db.Entry(p).State = EntityState.Modified;
+            //db.Entry(p).State = EntityState.Modified;
             db.SaveChanges();
         }
     }
