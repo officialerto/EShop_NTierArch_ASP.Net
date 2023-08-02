@@ -19,5 +19,12 @@ namespace E_Shop.Controllers
 
             return PartialView();
         }
+
+        public ActionResult ProductDetails(int id)
+        {
+            var details = productRepository.GetById(id);
+
+            return View(details);
+        }
     }
 }
