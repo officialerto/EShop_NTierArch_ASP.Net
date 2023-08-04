@@ -31,10 +31,9 @@
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="~/eshop/images/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="i~/eshop/mages/ico/apple-touch-icon-57-precomposed.png">
 
-</head><!--/head-->
+</head>
 
 <body>
-
 
     <section>
         <div class="container">
@@ -47,23 +46,14 @@
                         <div class="col-sm-5">
                             <div class="view-product">
                                 <img src="~/Content/Image/@Model.Image" style="width:300px; height:240px; margin-top:20px" alt="@Model.Name" />
-
                             </div>
-
-
                         </div>
                         <div class="col-sm-7">
                             <div class="product-information">
 
                                 <h2>Ürün Adı: @Model.Name</h2>
-
-
                                 <span>
                                     <span>@Model.Price TL</span>
-
-
-
-
                                     <a class="btn btn-fefault cart" style="margin-top:15px" href="/Cart/AddCart/@Model.Id">
                                         <i class="fa fa-shopping-cart"></i>
                                         Sepete Ekle
@@ -75,7 +65,7 @@
                                 <p><b>Onay:</b> @Model.IsApproved</p>
                                 <p><b>Açıklama:</b> @Model.Description</p>
                                 <a href=""><img src="images/product-details/share.png" class="share img-responsive" alt="" /></a>
-                            </div><!--/product-information-->
+                            </div>
                         </div>
                         <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
                             Yorum Yap
