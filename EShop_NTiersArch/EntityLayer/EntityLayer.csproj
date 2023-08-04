@@ -53,6 +53,7 @@
   <ItemGroup>
     <Compile Include="Entities\Cart.cs" />
     <Compile Include="Entities\Category.cs" />
+    <Compile Include="Entities\Comment.cs" />
     <Compile Include="Entities\Product.cs" />
     <Compile Include="Entities\Sales.cs" />
     <Compile Include="Entities\User.cs" />

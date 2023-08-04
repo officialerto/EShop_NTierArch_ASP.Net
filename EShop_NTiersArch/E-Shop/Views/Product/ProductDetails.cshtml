@@ -87,18 +87,18 @@
                                 <div class="modal-content">
                                     <form method="post" action="/Product/Comment">
                                         <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalLabel">Yorum Yazınız</h5>
+                                            <h5 class="modal-title" id="exampleModalLabel">Comment</h5>
 
                                         </div>
                                         <div class="modal-body">
-                                            <textarea class="form-control" name="Icerik" placeholder="Yorum Yazınız..."></textarea>
+                                            <textarea class="form-control" name="Contents" placeholder="Comment..."></textarea>
                                             <input type="hidden" name="ProductId" value="@Model.Id" />
                                             <input type="hidden" name="UserId" value="@Session["userid"]" />
                                             <input type="hidden" name="Date" value="@DateTime.Now" />
                                         </div>
                                         <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Kapat</button>
-                                            <button type="submit" class="btn btn-primary">Gönder</button>
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                            <button type="submit" class="btn btn-primary">Submit</button>
                                         </div>
                                     </form>
                                 </div>
@@ -120,32 +120,32 @@
 
                                     </div>
 
-
-
-
                                 </div>
                             </div>*@
 
-
-                        <hr />
-                        @*<div class="row">
+                        <br /> <br />
+                        <div class="row">
+                            <h2 class="title text-center">COMMENTS</h2>
                             <div class="col-md-4 col-sm-4">
 
 
                                 @foreach (var item in ViewBag.yorum)
                                 {
                                     <h4 style="color:coral">
-                                        @item.User.Name
+                                        @item.User.Name @item.User.SurName 
                                     </h4>
-                                    <p>@item.Icerik </p>
-                                    <hr />
+                                    <span style="color:grey; font-size:small; position:relative; top:1px;"> @item.Date</span>
+                                    <br /> <br />
+                                    <p>@item.Contents </p>
+                                    <br />
+
                                 }
 
-
-
                             </div>
-                        </div>*@
-                    </div><!--/product-details-->
+
+                        </div>
+
+                    </div>
 
 
 

@@ -142,6 +142,8 @@ C:\Users\Ertugrul\Documents\GitHub\EShop_NTiersArch\EShop_NTiersArch\E-Shop\bin\
 C:\Users\Ertugrul\Documents\GitHub\EShop_NTiersArch\EShop_NTiersArch\E-Shop\bin\EntityLayer.dll
 C:\Users\Ertugrul\Documents\GitHub\EShop_NTiersArch\EShop_NTiersArch\E-Shop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\Ertugrul\Documents\GitHub\EShop_NTiersArch\EShop_NTiersArch\E-Shop\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Ertugrul\Documents\GitHub\EShop_NTiersArch\EShop_NTiersArch\E-Shop\bin\PagedList.dll
+C:\Users\Ertugrul\Documents\GitHub\EShop_NTiersArch\EShop_NTiersArch\E-Shop\bin\PagedList.Mvc.dll
 C:\Users\Ertugrul\Documents\GitHub\EShop_NTiersArch\EShop_NTiersArch\E-Shop\bin\System.Web.Helpers.dll
 C:\Users\Ertugrul\Documents\GitHub\EShop_NTiersArch\EShop_NTiersArch\E-Shop\bin\System.Web.Mvc.dll
 C:\Users\Ertugrul\Documents\GitHub\EShop_NTiersArch\EShop_NTiersArch\E-Shop\bin\System.Web.Razor.dll
@@ -156,6 +158,8 @@ C:\Users\Ertugrul\Documents\GitHub\EShop_NTiersArch\EShop_NTiersArch\E-Shop\bin\
 C:\Users\Ertugrul\Documents\GitHub\EShop_NTiersArch\EShop_NTiersArch\E-Shop\bin\EntityLayer.dll.config
 C:\Users\Ertugrul\Documents\GitHub\EShop_NTiersArch\EShop_NTiersArch\E-Shop\bin\EntityFramework.xml
 C:\Users\Ertugrul\Documents\GitHub\EShop_NTiersArch\EShop_NTiersArch\E-Shop\bin\EntityFramework.SqlServer.xml
+C:\Users\Ertugrul\Documents\GitHub\EShop_NTiersArch\EShop_NTiersArch\E-Shop\bin\PagedList.xml
+C:\Users\Ertugrul\Documents\GitHub\EShop_NTiersArch\EShop_NTiersArch\E-Shop\bin\PagedList.Mvc.xml
 C:\Users\Ertugrul\Documents\GitHub\EShop_NTiersArch\EShop_NTiersArch\E-Shop\bin\System.Web.Razor.xml
 C:\Users\Ertugrul\Documents\GitHub\EShop_NTiersArch\EShop_NTiersArch\E-Shop\bin\System.Web.Webpages.xml
 C:\Users\Ertugrul\Documents\GitHub\EShop_NTiersArch\EShop_NTiersArch\E-Shop\bin\System.Web.Webpages.Deployment.xml
@@ -168,7 +172,3 @@ C:\Users\Ertugrul\Documents\GitHub\EShop_NTiersArch\EShop_NTiersArch\E-Shop\obj\
 C:\Users\Ertugrul\Documents\GitHub\EShop_NTiersArch\EShop_NTiersArch\E-Shop\obj\Debug\E-Shop.csproj.CopyComplete
 C:\Users\Ertugrul\Documents\GitHub\EShop_NTiersArch\EShop_NTiersArch\E-Shop\obj\Debug\E-Shop.dll
 C:\Users\Ertugrul\Documents\GitHub\EShop_NTiersArch\EShop_NTiersArch\E-Shop\obj\Debug\E-Shop.pdb
-C:\Users\Ertugrul\Documents\GitHub\EShop_NTiersArch\EShop_NTiersArch\E-Shop\bin\PagedList.dll
-C:\Users\Ertugrul\Documents\GitHub\EShop_NTiersArch\EShop_NTiersArch\E-Shop\bin\PagedList.Mvc.dll
-C:\Users\Ertugrul\Documents\GitHub\EShop_NTiersArch\EShop_NTiersArch\E-Shop\bin\PagedList.xml
-C:\Users\Ertugrul\Documents\GitHub\EShop_NTiersArch\EShop_NTiersArch\E-Shop\bin\PagedList.Mvc.xml
