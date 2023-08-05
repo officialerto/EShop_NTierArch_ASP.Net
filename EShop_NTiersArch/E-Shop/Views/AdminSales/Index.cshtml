@@ -1,0 +1,45 @@
+﻿@using PagedList;
+@using PagedList.Mvc;
+@model IPagedList<EntityLayer.Entities.Sales>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+
+<h2>List of Sales</h2>
+
+<table class="table table-bordered">
+    <tr>
+        <th>Kullanıcı Bilgisi</th>
+        <th>ID</th>
+        <th>Product Name</th>
+        <th>Amount</th>
+        <th>Price</th>
+        <th>Image</th>
+        <th>Date</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tbody>
+
+            <tr>
+                <td>@item.User.Name @item.User.SurName</td>
+                <td>@item.Id</td>
+                <td>@item.Product.Name</td>
+                <td>@item.Quantity</td>
+                <td>@item.Price</td>
+                <td><img src="~/Content/Image/@item.Product.Image" width="90" height="90" /></td>
+                <td>@Convert.ToDateTime(item.Date).ToString("dd/MM/yyyy")</td>
+            </tr>
+        </tbody>
+
+    }
+
+</table>
+
+
+@Html.PagedListPager(Model, sayfa => Url.Action("Index", new { sayfa }), PagedListRenderOptions.Classic)
+

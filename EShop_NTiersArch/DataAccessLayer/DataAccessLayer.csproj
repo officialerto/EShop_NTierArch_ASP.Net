@@ -56,6 +56,10 @@
     <Compile Include="Migrations\202307292010348_initialize.designer.cs">
       <DependentUpon>202307292010348_initialize.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202308051332243_resetpass.cs" />
+    <Compile Include="Migrations\202308051332243_resetpass.designer.cs">
+      <DependentUpon>202308051332243_resetpass.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -72,6 +76,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202307292010348_initialize.resx">
       <DependentUpon>202307292010348_initialize.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202308051332243_resetpass.resx">
+      <DependentUpon>202308051332243_resetpass.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

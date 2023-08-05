@@ -61,8 +61,28 @@
                                 </span>
                                 <p><b>Kategori:</b> @Model.Category.Name</p>
                                 <p><b>Stok:</b> @Model.Stock</p>
-                                <p><b>Popüler:</b> @Model.Popular</p>
-                                <p><b>Onay:</b> @Model.IsApproved</p>
+                                <p>
+                                    <b>Popüler:</b>
+                                    @if (Model.Popular == true)
+                                    {
+                                        <b style="color:dimgrey; font-weight:400">Yes</b>
+                                    }
+                                    else
+                                    {
+                                        <b style="color:dimgrey; font-weight:400">No</b>
+                                    }
+                                </p>
+                                <p>
+                                    <b>Onay:</b>
+                                    @if (Model.IsApproved == true)
+                                    {
+                                        <b style="color:dimgrey; font-weight:400">Yes</b>
+                                    }
+                                    else
+                                    {
+                                        <b style="color:dimgrey; font-weight:400">No</b>
+                                    }
+                                </p>
                                 <p><b>Açıklama:</b> @Model.Description</p>
                                 <a href=""><img src="images/product-details/share.png" class="share img-responsive" alt="" /></a>
                             </div>
@@ -122,7 +142,7 @@
                                 @foreach (var item in ViewBag.yorum)
                                 {
                                     <h4 style="color:coral">
-                                        @item.User.Name @item.User.SurName 
+                                        @item.User.Name @item.User.SurName
                                     </h4>
                                     <span style="color:grey; font-size:small; position:relative; top:1px;"> @item.Date</span>
                                     <br /> <br />

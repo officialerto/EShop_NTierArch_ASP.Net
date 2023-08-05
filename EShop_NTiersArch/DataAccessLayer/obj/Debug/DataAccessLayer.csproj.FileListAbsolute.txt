@@ -32,3 +32,4 @@ C:\Users\Ertugrul\Documents\GitHub\EShop_NTiersArch\EShop_NTiersArch\DataAccessL
 C:\Users\Ertugrul\Documents\GitHub\EShop_NTiersArch\EShop_NTiersArch\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CopyComplete
 C:\Users\Ertugrul\Documents\GitHub\EShop_NTiersArch\EShop_NTiersArch\DataAccessLayer\obj\Debug\DataAccessLayer.dll
 C:\Users\Ertugrul\Documents\GitHub\EShop_NTiersArch\EShop_NTiersArch\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+C:\Users\Ertugrul\Documents\GitHub\EShop_NTiersArch\EShop_NTiersArch\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.resetpass.resources

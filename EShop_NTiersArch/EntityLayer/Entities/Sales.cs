@@ -30,5 +30,7 @@ namespace EntityLayer.Entities
 
         [Display(Name = "User")]
         public int UserId { get; set; }
+
+        public virtual User User { get; set; }
     }
 }

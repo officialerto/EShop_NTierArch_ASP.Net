@@ -12,6 +12,7 @@ using System.Web.Mvc;
 
 namespace E_Shop.Controllers
 {
+    [Authorize(Roles = "Admin")]
     public class AdminProductController : Controller
     {
         ProductRepository productRepository = new ProductRepository();
@@ -123,5 +124,29 @@ namespace E_Shop.Controllers
             return View(update);
 
         }
+
+        public ActionResult CriticalStock()
+        {
+
+            var kritik = dataContext.Products.Where(x=>x.Stock <= 50).ToList();
+
+            return View(kritik);
+        }
+
+        public PartialViewResult StockCount()
+        {
+
+            if (User.Identity.IsAuthenticated)
+            {
+                var count = dataContext.Products.Where(x => x.Stock < 50).Count();
+                ViewBag.count = count;
+
+                var azalan = dataContext.Products.Where(x=>x.Stock == 50).Count();
+                ViewBag.azalan = azalan;
+            }
+
+            return PartialView();
+        }
+
     }
 }

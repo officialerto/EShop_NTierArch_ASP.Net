@@ -1,11 +1,13 @@
-﻿@model EntityLayer.Entities.User 
+﻿@model EntityLayer.Entities.User
+
 
 @{
-    Layout = null;
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<!DOCTYPE html>
-<html lang="tr">
+@*<!DOCTYPE html>*@
+<!--<html lang="tr">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,17 +20,17 @@
     <link href="~/eshop/css/price-range.css" rel="stylesheet">
     <link href="~/eshop/css/animate.css" rel="stylesheet">
     <link href="~/eshop/css/main.css" rel="stylesheet">
-    <link href="~/eshop/css/responsive.css" rel="stylesheet">
+    <link href="~/eshop/css/responsive.css" rel="stylesheet">-->
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
     <![endif]-->
-    <link rel="shortcut icon" href="images/ico/favicon.ico">
+    <!--<link rel="shortcut icon" href="images/ico/favicon.ico">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="~/eshop/images/ico/apple-touch-icon-144-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="~/eshop/images/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="~/eshop/images/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="~/eshop/images/ico/apple-touch-icon-57-precomposed.png">
-</head><!--/head-->
+</head>--><!--/head-->
 
 <body>
 
@@ -44,6 +46,7 @@
                             <input type="email" placeholder="Email Address" name="Email" />
                             <input type="password" placeholder="Password" name="Password" />
                             <button type="submit" class="btn btn-default">Login</button>
+                            <a href="/User/ResetPassword" class="btn btn-primary">Reset Password</a>
                         </form>
                     </div><!--/login form-->
                 </div>
@@ -55,19 +58,19 @@
                         <!--sign up form-->
                         <h2>New User Signup!</h2>
                         <form action="/Account/Register" method="post">
-                        <input type="text" placeholder="Name" name="Name" />
-                        @Html.ValidationMessageFor(x => x.Name, "", new { @style = "color:red" })
-                        <input type="text" placeholder="Surname" name="SurName" />
-                        @Html.ValidationMessageFor(x => x.SurName, "", new { @style = "color:red" })
-                        <input type="email" placeholder="Email Address" name="Email" />
-                        @Html.ValidationMessageFor(x => x.Email, "", new { @style = "color:red" })
-                        <input type="text" placeholder="UserName" name="UserName" />
-                        @Html.ValidationMessageFor(x => x.UserName, "", new { @style = "color:red" })
-                        <input type="password" placeholder="Password" name="Password" />
-                        @Html.ValidationMessageFor(x => x.Password, "", new { @style = "color:red" })
-                        <input type="password" placeholder="RePassword" name="RePassword" />
-                        @Html.ValidationMessageFor(x => x.RePassword, "", new { @style = "color:red" })
-                        <button type="submit" class="btn btn-default">Signup</button>
+                            <input type="text" placeholder="Name" name="Name" />
+                            @Html.ValidationMessageFor(x => x.Name, "", new { @style = "color:red" })
+                            <input type="text" placeholder="Surname" name="SurName" />
+                            @Html.ValidationMessageFor(x => x.SurName, "", new { @style = "color:red" })
+                            <input type="email" placeholder="Email Address" name="Email" required maxlength="50" />
+                            @Html.ValidationMessageFor(x => x.Email, "", new { @style = "color:red" })
+                            <input type="text" placeholder="UserName" name="UserName" />
+                            @Html.ValidationMessageFor(x => x.UserName, "", new { @style = "color:red" })
+                            <input type="password" placeholder="Password" name="Password" required maxlength="50" />
+                            @Html.ValidationMessageFor(x => x.Password, "", new { @style = "color:red" })
+                            <input type="password" placeholder="RePassword" name="RePassword" required maxlength="50" />
+                            @Html.ValidationMessageFor(x => x.RePassword, "", new { @style = "color:red" })
+                            <button type="submit" class="btn btn-default">Signup</button>
                         </form>
                     </div><!--/sign up form-->
                 </div>
@@ -76,9 +79,9 @@
     </section><!--/form-->
 
 
-    <footer id="footer">
+    <!--<footer id="footer">-->
         <!--Footer-->
-        <div class="footer-top">
+        <!--<div class="footer-top">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-2">
@@ -233,7 +236,7 @@
             </div>
         </div>
 
-    </footer><!--/Footer-->
+    </footer>--><!--/Footer-->
 
 
 

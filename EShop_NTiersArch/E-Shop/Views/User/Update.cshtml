@@ -1,0 +1,53 @@
+﻿@model EntityLayer.Entities.User
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<form method="post">
+    <br />
+    <div class="container">
+        <br />
+        <div class="form-group">
+            <label>Name</label>
+            <input type="text" name="Name" class="form-control" value="@Model.Name" />
+            @Html.ValidationMessageFor(x => x.Name, "", new { @style = "color:red" })
+        </div>
+        <br />
+        <div class="form-group">
+            <label>Surname</label>
+            <input type="text" name="SurName" class="form-control" value="@Model.SurName" />
+            @Html.ValidationMessageFor(x => x.SurName, "", new { @style = "color:red" })
+        </div>
+        <br />
+        <div class="form-group">
+            <label>Username</label>
+            <input type="text" name="UserName" class="form-control" value="@Model.UserName" />
+            @Html.ValidationMessageFor(x => x.UserName, "", new { @style = "color:red" })
+        </div>
+        <br />
+        <div class="form-group">
+            <label>Email</label>
+            <input type="email" name="Email" class="form-control" value="@Model.Email" />
+            @Html.ValidationMessageFor(x => x.Email, "", new { @style = "color:red" })
+        </div>
+        <br />
+        <div class="form-group">
+            <label>Password</label>
+            <input type="password" name="Password" class="form-control" value="@Model.Password" />
+            @Html.ValidationMessageFor(x => x.Password, "", new { @style = "color:red" })
+        </div>
+        <br />
+        <div class="form-group">
+            <label>RePassword</label>
+            <input type="password" name="RePassword" class="form-control" value="@Model.RePassword" />
+            @Html.ValidationMessageFor(x => x.RePassword, "", new { @style = "color:red" })
+        </div>
+        <br />
+        <button type="submit" class="btn btn-primary">Update</button>
+
+    </div>
+    <br />
+</form>

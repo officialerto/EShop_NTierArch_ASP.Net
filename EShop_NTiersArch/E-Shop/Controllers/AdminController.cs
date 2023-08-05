@@ -9,11 +9,11 @@ using PagedList.Mvc;
 
 namespace E_Shop.Controllers
 {
+    [Authorize(Roles = "Admin")]
     public class AdminController : Controller
     {
         DataContext db = new DataContext();
 
-        // GET: Admin
         public ActionResult Index()
         {
             return View();
@@ -27,11 +27,27 @@ namespace E_Shop.Controllers
 
         public ActionResult Delete(int id)
         {
-            var delete = db.Comments.Where(x=>x.Id == id).FirstOrDefault();
+            var delete = db.Comments.Where(x => x.Id == id).FirstOrDefault();
             db.Comments.Remove(delete);
             db.SaveChanges();
 
             return RedirectToAction("Comment");
         }
+
+        public ActionResult UserList()
+        {
+            var userlist = db.Users.Where(x => x.Role == "User").ToList();
+
+            return View(userlist);
+        }
+
+        public ActionResult UserDelete(int id)
+        {
+            var delete = db.Users.Where(x => x.Id == id).FirstOrDefault();
+            db.Users.Remove(delete);
+            db.SaveChanges();
+            return RedirectToAction("UserList");
+        }
+
     }
 }

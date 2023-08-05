@@ -13,6 +13,9 @@ namespace E_Shop
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
+            //ROUTE İÇİN EKLEDİK
+            routes.MapMvcAttributeRoutes();
+
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
